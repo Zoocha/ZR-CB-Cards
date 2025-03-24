@@ -2,7 +2,7 @@ name: 'ZC Cards'
 description: 'Installs Zoocha Cards Component'
 type: 'Feature'
 recipes:
-  - zoocha-media-recipe
+  - zr-media-bundle
   - zr-layout-builder-bundle
   - zr-paragraph-bundle
 
