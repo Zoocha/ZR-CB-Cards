@@ -1,0 +1,11 @@
+uuid: 46f5b1cf-d40d-4ff2-81c4-1e7d3551b623
+langcode: en
+status: true
+dependencies: {  }
+id: cards
+block_id: 'inline_block:cards'
+category: zoocha_components
+label: Cards
+image_path: ''
+image_alt: ''
+weight: null

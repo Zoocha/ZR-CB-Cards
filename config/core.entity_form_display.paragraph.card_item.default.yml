@@ -1,0 +1,54 @@
+uuid: a0301c81-1ce0-408c-a6cb-c4a350801c41
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.card_item.field_copy
+    - field.field.paragraph.card_item.field_link
+    - field.field.paragraph.card_item.field_media
+    - field.field.paragraph.card_item.field_title
+    - paragraphs.paragraphs_type.card_item
+  module:
+    - linkit
+    - media_library
+id: paragraph.card_item.default
+targetEntityType: paragraph
+bundle: card_item
+mode: default
+content:
+  field_copy:
+    type: string_textarea
+    weight: 2
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_link:
+    type: linkit
+    weight: 3
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+      linkit_profile: default
+      linkit_auto_link_text: false
+    third_party_settings: {  }
+  field_media:
+    type: media_library_widget
+    weight: 1
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+  field_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true
