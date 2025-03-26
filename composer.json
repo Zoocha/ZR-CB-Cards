@@ -1,7 +1,7 @@
 {
     "name": "zr/zr-cb-cards",
     "description": "ZR Cards - Layout Builder",
-    "type": "drupal-custom-recipe",
+    "type": "drupal-recipe",
     "require": {
         "php": ">=8.1"
     },
