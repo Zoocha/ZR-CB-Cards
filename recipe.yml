@@ -5,6 +5,7 @@ recipes:
   - zr-media-bundle
   - zr-layout-builder-bundle
   - zr-paragraph-bundle
-
+install:
+  - linkit
 config:
   strict: false

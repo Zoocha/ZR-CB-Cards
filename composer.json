@@ -6,7 +6,8 @@
         "php": ">=8.1",
         "zr/zr-layout-builder-bundle": "^1.0",
         "zr/zr-media-bundle": "^1.0",
-        "zr/zr-paragraph-bundle": "^1.0"
+        "zr/zr-paragraph-bundle": "^1.0",
+        "drupal/linkit": "^7.0"
     },
     "authors": [
         {
