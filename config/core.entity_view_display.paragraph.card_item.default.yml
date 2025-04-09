@@ -10,6 +10,8 @@ dependencies:
     - paragraphs.paragraphs_type.card_item
   module:
     - linkit
+_core:
+  default_config_hash: s93VdtfDepdFoDnAfG93mUv1pFf2XwfQpX7XSXPALfY
 id: paragraph.card_item.default
 targetEntityType: paragraph
 bundle: card_item
@@ -20,7 +22,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 0
+    weight: 2
     region: content
   field_link:
     type: linkit
@@ -33,7 +35,7 @@ content:
       target: ''
       linkit_profile: default
     third_party_settings: {  }
-    weight: 1
+    weight: 3
     region: content
   field_media:
     type: entity_reference_entity_view
@@ -42,7 +44,7 @@ content:
       view_mode: default
       link: false
     third_party_settings: {  }
-    weight: 0
+    weight: 1
     region: content
   field_title:
     type: string
